@@ -1,0 +1,192 @@
+body{
+  padding: 0;
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: black; 
+}
+.navbar-nav{
+    font-size: 18px;
+    font-weight: 900;
+}
+.navbar-brand{
+    margin-left: 100px;
+    font-weight: 900;
+}
+.nav-item{
+    margin-right: 100px;
+}
+/* Remove border from toggler */
+.navbar-toggler {
+    border: 0 !important;
+  }
+  
+  .navbar-toggler:focus,
+  .navbar-toggler:active,
+  .navbar-toggler-icon:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border: 0 !important;
+  }
+  
+  /* Lines of the Toggler */
+  .toggler-icon {
+    width: 30px;
+    height: 3px;
+    background-color: #777777;
+    display: block;
+    transition: all 0.2s;
+  }
+  
+  /* Adds Space between the lines */
+  .middle-bar {
+    margin: 5px auto;
+  }
+  
+  /* State when navbar is opened (START) */
+  .navbar-toggler .top-bar {
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+  }
+  
+  .navbar-toggler .middle-bar {
+    opacity: 0;
+    filter: alpha(opacity=0);
+  }
+  
+  .navbar-toggler .bottom-bar {
+    transform: rotate(-45deg);
+    transform-origin: 10% 90%;
+  }
+  
+  /* State when navbar is opened (END) */
+  
+  /* State when navbar is collapsed (START) */
+  .navbar-toggler.collapsed .top-bar {
+    transform: rotate(0);
+  }
+  
+  .navbar-toggler.collapsed .middle-bar {
+    opacity: 1;
+    filter: alpha(opacity=100);
+  }
+  
+  .navbar-toggler.collapsed .bottom-bar {
+    transform: rotate(0);
+  }
+  
+  /* State when navbar is collapsed (END) */
+  
+  /* Color of Toggler when collapsed */
+  .navbar-toggler.collapsed .toggler-icon {
+    background: linear-gradient(263deg, rgba(252,74,74,1) 0%, rgba(0,212,255,1) 100%);
+  }
+.start{
+    margin-top: 50px;
+    text-align: center;
+    padding: 50px;
+}
+.start h1{
+    font-family: 'Alkalami', serif;
+    font-weight: 900;
+}
+.start button{
+    font-size: 20px;
+}
+.image{
+    position: relative;
+    bottom: 40px;
+}
+.col-sm-4{
+    margin-top: 50px;
+}
+.col-sm-4 p{
+    font-weight: 600;
+}
+.col-sm-4 h1{
+    margin-top: 30px;
+    font-size: 25px;
+    padding: 10px;
+    font-family: 'Alkalami', serif;
+    font-weight: 900;
+}
+.col-sm-4 img{
+    border: none;
+}
+.col-sm-4 button{
+    margin-right: 40px;
+    width: 60%;
+}
+.card{
+  margin-left: 90px;
+  margin-top: 50px;
+  border: none;
+  opacity: 1;
+}
+.first{
+    background-color: aquamarine;
+}
+.second{
+    background-color: #F7A76C;
+}
+.third{
+    background-color: #E94560;
+}
+.card p{
+    font-size: 15px;
+    color: #06283D;
+}
+.card-g{
+    margin-top: 30px;
+}
+.card-1{
+    text-decoration: overline;
+    text-decoration-color: #38E54D;
+    
+}
+.card-2{
+    text-decoration: overline;
+    text-decoration-color: #FF884B;
+}
+.card-3{
+    text-decoration: overline;
+    text-decoration-color: #FF1E1E;
+}
+#about{
+   text-align: center;
+   margin-top: 50px;
+   padding: 100px;
+}
+#about h1{
+    font-weight: 700;
+    color: #083AA9;
+}
+#about h2{
+    font-size: 40px;
+    opacity: 0.7;
+    margin-top: 40px;
+}
+#about p{
+    font-weight: 500;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.box-1{
+  border: 2px solid #F1F1F1;
+}
+.box-1 p{
+    font-weight: 300;
+}
+.feedback{
+    padding: 100px;
+    margin-top: 15px;
+}
+.mb-3{
+  padding: 15px;
+}
+.btn{
+  margin-top: 20px;
+}
+.success{
+  background-color: #38E54D;
+}
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap')
